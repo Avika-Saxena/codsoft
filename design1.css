@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Roboto&family=Tiro+Devanagari+Hindi:ital@0;1&family=Whisper&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-width: 1470px;
+    height: 1500vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    cursor: grab;
+    color: white;
+    background: radial-gradient(ellipse at top, #14202e 0%, #090a0f 100%);
+    overflow-y: hidden;
+}
+
+header {
+    width: 100%;
+    height: 6.5%;
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 25px;
+    text-shadow: 0 0 5px #fbff00;
+}
+
+.header-image {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: 100% 100%;
+    background-image: url(1af41ecfa45aa9dcfde9ed4f5ae2dfde.jpg);
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 96%;
+    box-shadow: 0 0 0px white, 0 0 50px -13px yellow, 0 0 150px white;
+    z-index: 1;
+}
+
+.heading {
+    width: 51%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Radhe {
+    height: 39%;
+    width: 20%;
+    margin-top: 21px;
+    border-radius: 100%;
+    background: #ffa50036;
+    box-shadow: 0px 0px 40px yellow, 0 0 56px orange, 0 0 110px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(charankamal.jpg.jpg);
+    background-size: 100% 100%;
+    border-style: none;
+}
+
+.RadheRadhe {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.RadheRadhe h2 {
+    font-family: 'Beau Rivage';
+    font-size: 27px;
+    font-weight: 100;
+    word-spacing: 3px;
+    letter-spacing: 0.05em;
+    text-shadow: 0 0px 12px white;
+}
+
+.inside-RadheRadhe {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    background: #0000008f;
+    z-index: 2;
+    justify-content: center;
+}
+
+.heading p {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 23px;
+    text-align: start;
+    color: #bb9503;
+    line-height: 1.3;
+    text-shadow: 0px 0px 20px #fff000
+}
+
+.heading h1 {
+    font-size: 80px;
+    font-family: 'Beau Rivage', cursive;
+    font-weight: 100;
+    color: #b48800;
+    text-shadow: none;
+}
+
+main {
+    width: 80%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    width: 100%;
+    height: 6%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box img {
+    width: 35%;
+    height: 40%;
+    z-index: 1;
+}
+
+.image {
+    width: 30%;
+    height: 65%;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.content {
+    width: 58%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 16px;
+    word-spacing: 0.4em;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#morpankh {
+    width: 5%;
+    height: 10%;
+    background-image: url('desktop-wallpaper-mor-pankh-thumbnail-removebg-preview.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.morpankhleela {
+    width: 5%;
+    height: 10%;
+    background-image: url('desktop-wallpaper-mor-pankh-thumbnail-removebg-preview.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    margin-top: -16%;
+}
+
+.kanha {
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -14%;
+}
+
+#birthanimation1 {
+    background-size: 100% 100%;
+    animation: birthanimation1 30s ease-in-out infinite forwards;
+}
+
+#birthanimation2 {
+    background-size: 100% 100%;
+    animation: birthanimation2 30s ease-in-out infinite forwards;
+}
+
+#baaleelaanimation1 {
+    background-size: 100% 100%;
+    animation: baaleelaanimation1 30s ease-in-out infinite forwards;
+}
+
+#baaleelaanimation2 {
+    background-size: 100% 100%;
+    animation: baaleelaanimation2 30s ease-in-out infinite forwards;
+}
+
+#baaleelaanimation3 {
+    background-size: 100% 100%;
+    animation: baaleelaanimation3 30s ease-in-out infinite forwards;
+}
+
+#raasleelaanimation1 {
+    background-size: 100% 100%;
+    animation: raasleelaanimation1 30s ease-in-out infinite forwards;
+}
+
+#raasleelaanimation2 {
+    background-size: 100% 100%;
+    animation: raasleelaanimation2 30s ease-in-out infinite forwards;
+}
+
+#Kanhakipatranianimation {
+    background-size: 100% 100%;
+    animation: Kanhakipatranianimation 30s ease-in-out infinite forwards;
+}
+
+#Asurokavadhanimation {
+    background-size: 100% 100%;
+    animation: Asurokavadhanimation 30s ease-in-out infinite forwards;
+}
+
+#mahabharatanimation {
+    background-size: 100% 100%;
+    animation: mahabharatanimation 30s ease-in-out infinite forwards;
+}
+
+@keyframes birthanimation1 {
+    0% {
+        background-image: url(c470d61a03ed89cc6b2c436d97b5265d-removebg-preview.png);
+    }
+    25% {
+        background-image: url(newpic.png.png);
+    }
+    50% {
+        background-image: url("d1c1e18422be258665aac1404df70e3b-removebg-preview (1).png");
+    }
+    75% {
+        background-image: url(07da2fa74c3df3f548d784563d611c83-removebg.png);
+    }
+    100% {
+        background-image: url(c470d61a03ed89cc6b2c436d97b5265d-removebg-preview.png);
+    }
+}
+
+@keyframes birthanimation2 {
+    0% {
+        background-image: url(6aa765e09ee2e6c31de784e80b9677ca-removebg-preview.png);
+    }
+    25% {
+        background-image: url(653fca34dd4b57e101871098425def10-removebg-preview.png);
+    }
+    50% {
+        background-image: url("5958b401dd7e3c77385b25778deddf43-removebg-preview.png");
+    }
+    75% {
+        background-image: url(dee044cff98f348356a32cb613283c4a-removebg-preview.png);
+    }
+    100% {
+        background-image: url(03f542021d861ac7c0e4b2646e2edf68-removebg-preview.png);
+    }
+}
+
+@keyframes baaleelaanimation1 {
+    0% {
+        background-image: url(d67a47d62fbea97aa8803428a3c3c22c-removebg-preview.png);
+    }
+    25% {
+        background-image: url(30153f92a7d2571ea53f9ae574e58b5e-removebg-preview.png);
+    }
+    50% {
+        background-image: url(56d663a6bac94110bd9e47d7c2a854d4-removebg-preview.png);
+    }
+    75% {
+        background-image: url(67dffd78a28167880267b9e804d6943d-removebg-preview.png);
+    }
+    100% {
+        background-image: url(laddo-removebg-preview.png);
+    }
+}
+
+@keyframes baaleelaanimation2 {
+    0% {
+        background-image: url(9589798526548b4058dd9efaabeda744-removebg-preview.png);
+    }
+    25% {
+        background-image: url(Lord-Krishna-removebg-preview.png);
+    }
+    50% {
+        background-image: url(08709742801076eedfc75750efb71a45-removebg-preview.png);
+    }
+    75% {
+        background-image: url(74075a2e68f2804e39d12b6f45424ba4-removebg-preview.png);
+    }
+    100% {
+        background-image: url(ac870faf8a75fa0adbc0c59061dc2d97-removebg-preview.png);
+    }
+}
+
+@keyframes baaleelaanimation3 {
+    0% {
+        background-image: url(f00ae7802125ec8c94227aa38fc41197-removebg.png);
+    }
+    25% {
+        background-image: url(be0835e0f202bc1c6f8fe16e542518b2-removebg-preview.png);
+    }
+    50% {
+        background-image: url(eaa6b63085448a56b139f38575b656cf-removebg.png);
+    }
+    75% {
+        background-image: url(laddooooo-removebg-preview.png);
+    }
+    100% {
+        background-image: url(b6b5f429bffc8ff503f973efa8690638-removebg-preview.png);
+    }
+}
+
+@keyframes raasleelaanimation1 {
+    0% {
+        background-image: url(b281789ac2516b9d65f207be6a901313-removebg-preview.png);
+    }
+    25% {
+        background-image: url(93eb2cf4946546e72eaeaa7090e8aef2-removebg-preview.png);
+    }
+    50% {
+        background-image: url(3e5673bcd94c22b0d5c67d8f9791ecdd-removebg-preview.png);
+    }
+    75% {
+        background-image: url(2b742c6e5ce99a3b0699be75fc74e919-removebg-preview.png);
+    }
+    100% {
+        background-image: url(fda24923a83c78bc1ba48e6f8e41fc91-removebg-preview.png);
+    }
+}
+
+@keyframes raasleelaanimation2 {
+    0% {
+        background-image: url(b8a99c7dbc03f626c0f9b964e4287193-removebg-preview.png);
+    }
+    25% {
+        background-image: url(4c8ba75dd76898f0cd0ec738f9bfb8d5-removebg-preview.png);
+    }
+    50% {
+        background-image: url(73987c20d1c91cf66b31405926d34752-removebg-preview.png);
+    }
+    75% {
+        background-image: url(c3f282300e962b0ac420a8136a0f12f6-removebg-preview.png);
+    }
+    100% {
+        background-image: url(f49920dc3ef92de3f071733fc06ae75e-removebg-preview.png);
+    }
+}
+
+@keyframes Kanhakipatranianimation {
+    0% {
+        background-image: url(56a58c0fc362bf90305a9fbabe97ff6f-removebg-preview.png);
+    }
+    25% {
+        background-image: url(218ffc7a8c81cb7a271ae0d62c8d3b8a-removebg-preview.png);
+    }
+    50% {
+        background-image: url(ef0202c4d64cf07f64d569e2171a5f76-removebg-preview.png);
+    }
+    75% {
+        background-image: url(4dc174174dc549228bf99c8b43a0ae11-removebg-preview.png);
+    }
+    100% {
+        background-image: url(8429f030628e1b779e0ae98a60f4c839-removebg-preview.png);
+    }
+}
+
+@keyframes Asurokavadhanimation {
+    0% {
+        background-image: url(kaliyanag.png);
+    }
+    15% {
+        background-image: url(trinavrat.png);
+    }
+    30% {
+        background-image: url(bakasur.png);
+    }
+    45% {
+        background-image: url(vatsasur.png);
+    }
+    60% {
+        background-image: url(aghasur-removebg-preview.png);
+    }
+    75% {
+        background-image: url(sakatasur.png);
+    }
+    90% {
+        background-image: url(kans.png);
+    }
+    100% {
+        background-image: url(putana-removebg-preview.png);
+    }
+}
+
+@keyframes mahabharatanimation {
+    0% {
+        background-image: url(c1133545d80a19294ba887df6f935e07-removebg-preview.png);
+    }
+    25% {
+        background-image: url(c5a91b1aa0fdb67250bb891e43db294b-removebg-preview.png);
+    }
+    50% {
+        background-image: url(b6b5c0f371a9f7c1d9862ef31cab3084-removebg-preview.png);
+    }
+    75% {
+        background-image: url(d115aea5621e40617f769b2cb4909911-removebg-preview.png);
+    }
+    100% {
+        background-image: url(eba82bcf9c76c875759808ba8c5ca420-removebg-preview.png);
+    }
+}
+
+.bubble {
+    width: 100%;
+    height: 1500vh;
+    position: absolute;
+    top: 0%;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+.parts {
+    width: 100%;
+    height: 6.6%;
+    position: relative;
+    display: flex;
+}
+
+.bubbles {
+    position: relative;
+    display: flex;
+}
+
+.bubbles span {
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin: 0 22px;
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0px 0px 6px #ffffff, 0 0 15px white, 0 0 13px #ffe500;
+    animation: bubblesanimation 50s linear infinite;
+    animation-duration: calc(190s / var(--i));
+}
+
+@keyframes bubblesanimation {
+    0% {
+        transform: translateY(100vh) scale(0);
+    }
+    100% {
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.patrani {
+    width: 100%;
+    height: 6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pic {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pic img {
+    width: 100%;
+    height: 66%;
+    border-radius: 100%;
+    box-shadow: 0px 0px 24px #b8b85c;
+}
+
+.patrani a {
+    text-decoration: underline;
+    font-family: 'Beau Rivage';
+    font-size: 28px;
+    word-spacing: 0.3em;
+    font-weight: 100;
+    text-shadow: 0 0 9px #FFE607;
+}
+
+h4 {
+    margin: 30px;
+    color: yellow;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: disclosure-closed;
+    color: white;
+    margin: 5px;
+}
+
+ul {
+    width: 85%;
+}
+
+ul li a {
+    color: white;
+}
+
+footer {
+    width: 80%;
+    height: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.paragraph {
+    width: 95%;
+    height: 30%;
+}
+
+.imgpara {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.para {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.img img {
+    height: 80%;
+}
+
+footer h1 {
+    margin-top: 17%;
+    position: absolute;
+    font-style: italic;
+}
